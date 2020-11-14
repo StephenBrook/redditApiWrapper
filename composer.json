@@ -1,0 +1,24 @@
+{
+    "name": "istvanp/reddit",
+    "description": "Simple reddit api wrapper for laravel",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pataki István",
+            "email": "pataki.istvan@e-vista.hu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Istvanp\\RedditApi\\": "src"
+        }
+    },
+    "require": {
+        "php" : "^7.2",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "illuminate/support": "^6.0|^7.0|^8.0"
+    }
+}
